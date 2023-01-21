@@ -1,5 +1,9 @@
 # Strapi PHP Client library
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mbvienasbaitas/strapi-php-client.svg?style=flat-square)](https://packagist.org/packages/mbvienasbaitas/strapi-php-client)
+![Test Status](https://img.shields.io/github/actions/workflow/status/mbvienasbaitas/strapi-php-client/run-tests.yaml?label=tests&branch=main)
+[![Total Downloads](https://img.shields.io/packagist/dt/mbvienasbaitas/strapi-php-client.svg?style=flat-square)](https://packagist.org/packages/mbvienasbaitas/strapi-php-client)
+
 ## Installation
 
 To get started, simply require the project using [Composer](https://getcomposer.org/).<br>
