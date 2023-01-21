@@ -1,0 +1,43 @@
+{
+    "name": "mbvienasbaitas/strapi-php-client",
+    "description": "PHP Client wrapper for Strapi API.",
+    "keywords": ["strapi", "client"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edvinas Kručas",
+            "email": "edv.krucas@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*",
+        "php-http/discovery": "^1.14",
+        "php-http/httplug": "^2.3",
+        "php-http/client-common": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "VienasBaitas\\Strapi\\Client\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "suggest": {
+        "guzzlehttp/guzzle": "Use Guzzle ^7 as HTTP client",
+        "http-interop/http-factory-guzzle": "Factory for guzzlehttp/guzzle"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^7.5",
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "XDEBUG_MODE=coverage vendor/bin/phpunit --coverage-html=./build"
+    }
+}
