@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Utils;
+namespace MBVienasBaitas\Strapi\Client\Utils;
 
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionPaginationPaged;
-use VienasBaitas\Strapi\Client\Endpoints\Collection;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionPaginationPaged;
+use MBVienasBaitas\Strapi\Client\Endpoints\Collection;
 
 class Scroll
 {

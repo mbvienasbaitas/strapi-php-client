@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Media;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Media;
 
-use VienasBaitas\Strapi\Client\Contracts\Requests\BodyAware;
-use VienasBaitas\Strapi\Client\Contracts\Requests\HasBody;
-use VienasBaitas\Strapi\Client\Contracts\Requests\HasQuery;
-use VienasBaitas\Strapi\Client\Contracts\Requests\QueryAware;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\BodyAware;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\HasBody;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\HasQuery;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\QueryAware;
 
 class StoreRequest implements BodyAware, QueryAware
 {

@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Http;
+namespace MBVienasBaitas\Strapi\Client\Http;
 
-use VienasBaitas\Strapi\Client\Contracts\Http;
-use VienasBaitas\Strapi\Client\Exceptions\ApiException;
-use VienasBaitas\Strapi\Client\Exceptions\CommunicationException;
-use VienasBaitas\Strapi\Client\Exceptions\InvalidResponseBodyException;
-use VienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
-use VienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
-use VienasBaitas\Strapi\Client\Http\Serialize\Json;
+use MBVienasBaitas\Strapi\Client\Contracts\Http;
+use MBVienasBaitas\Strapi\Client\Exceptions\ApiException;
+use MBVienasBaitas\Strapi\Client\Exceptions\CommunicationException;
+use MBVienasBaitas\Strapi\Client\Exceptions\InvalidResponseBodyException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
+use MBVienasBaitas\Strapi\Client\Http\Serialize\Json;
 use Http\Discovery\Psr17FactoryDiscovery;
 use Http\Discovery\Psr18ClientDiscovery;
 use Psr\Http\Client\ClientExceptionInterface;

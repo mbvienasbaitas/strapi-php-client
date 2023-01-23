@@ -5,18 +5,18 @@ declare(strict_types=1);
 namespace Tests\Endpoints;
 
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\DeleteRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\LocalizeRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\ShowRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\StoreRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\UpdateRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionLocale;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionPopulateWildcard;
-use VienasBaitas\Strapi\Client\Endpoints\Collection;
-use VienasBaitas\Strapi\Client\Http\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\DeleteRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\LocalizeRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\StoreRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\UpdateRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionLocale;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionPopulateWildcard;
+use MBVienasBaitas\Strapi\Client\Endpoints\Collection;
+use MBVienasBaitas\Strapi\Client\Http\Client;
 
 class CollectionTest extends TestCase
 {

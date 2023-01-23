@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Options;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Options;
 
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media;
 use Psr\Http\Message\StreamInterface;
 
 class OptionStreamBody implements Media\StoreRequestOption

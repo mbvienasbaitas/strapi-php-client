@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests;
 
 trait HasId
 {

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Endpoints;
+namespace MBVienasBaitas\Strapi\Client\Endpoints;
 
-use VienasBaitas\Strapi\Client\Contracts\Endpoint;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\DeleteRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\IndexRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\ShowRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\StoreRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\UpdateRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Endpoint;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\DeleteRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\StoreRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\UpdateRequest;
 
 class Media extends Endpoint
 {

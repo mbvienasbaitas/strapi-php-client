@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "VienasBaitas\\Strapi\\Client\\": "src"
+            "MBVienasBaitas\\Strapi\\Client\\": "src"
         }
     },
     "autoload-dev": {

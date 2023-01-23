@@ -6,16 +6,16 @@ namespace Tests\Endpoints;
 
 use GuzzleHttp\Psr7\Stream;
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\DeleteRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\IndexRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\ShowRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\StoreRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\UpdateRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionStreamBody;
-use VienasBaitas\Strapi\Client\Endpoints\Media;
-use VienasBaitas\Strapi\Client\Http\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\DeleteRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\StoreRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\UpdateRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionStreamBody;
+use MBVienasBaitas\Strapi\Client\Endpoints\Media;
+use MBVienasBaitas\Strapi\Client\Http\Client;
 
 class MediaTest extends TestCase
 {

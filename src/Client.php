@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client;
+namespace MBVienasBaitas\Strapi\Client;
 
-use VienasBaitas\Strapi\Client\Contracts\Http;
-use VienasBaitas\Strapi\Client\Http\Client as HttpClient;
+use MBVienasBaitas\Strapi\Client\Contracts\Http;
+use MBVienasBaitas\Strapi\Client\Http\Client as HttpClient;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestFactoryInterface;
 

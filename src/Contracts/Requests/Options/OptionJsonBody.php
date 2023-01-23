@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Options;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Options;
 
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single;
 
 class OptionJsonBody implements Collection\StoreRequestOption, Collection\UpdateRequestOption,
                                 Collection\LocalizeRequestOption, Single\UpdateRequestOption,

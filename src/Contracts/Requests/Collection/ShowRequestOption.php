@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Collection;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection;
 
 interface ShowRequestOption
 {

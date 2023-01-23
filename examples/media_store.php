@@ -2,9 +2,9 @@
 
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Utils;
-use VienasBaitas\Strapi\Client\Client;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media\StoreRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionStreamBody;
+use MBVienasBaitas\Strapi\Client\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media\StoreRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionStreamBody;
 
 include __DIR__ . '/bootstrap.php';
 

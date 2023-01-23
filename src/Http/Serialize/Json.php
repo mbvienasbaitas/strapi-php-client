@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Http\Serialize;
+namespace MBVienasBaitas\Strapi\Client\Http\Serialize;
 
-use VienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
-use VienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
 use JsonException;
 
 class Json implements SerializerInterface

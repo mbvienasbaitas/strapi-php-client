@@ -1,6 +1,6 @@
 <?php
 
-use VienasBaitas\Strapi\Client\Client;
+use MBVienasBaitas\Strapi\Client\Client;
 
 include __DIR__ . '/../vendor/autoload.php';
 

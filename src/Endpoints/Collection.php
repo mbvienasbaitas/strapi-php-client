@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Endpoints;
+namespace MBVienasBaitas\Strapi\Client\Endpoints;
 
-use VienasBaitas\Strapi\Client\Contracts\Endpoint;
-use VienasBaitas\Strapi\Client\Contracts\Http;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\DeleteRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\LocalizeRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\ShowRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\StoreRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\UpdateRequest;
-use VienasBaitas\Strapi\Client\Utils\Scroll;
+use MBVienasBaitas\Strapi\Client\Contracts\Endpoint;
+use MBVienasBaitas\Strapi\Client\Contracts\Http;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\DeleteRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\LocalizeRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\StoreRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\UpdateRequest;
+use MBVienasBaitas\Strapi\Client\Utils\Scroll;
 
 class Collection extends Endpoint
 {

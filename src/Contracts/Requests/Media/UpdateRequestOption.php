@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Media;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Media;
 
 interface UpdateRequestOption
 {

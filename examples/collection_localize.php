@@ -1,9 +1,9 @@
 <?php
 
-use VienasBaitas\Strapi\Client\Client;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\LocalizeRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
+use MBVienasBaitas\Strapi\Client\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\LocalizeRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
 
 include __DIR__ . '/bootstrap.php';
 

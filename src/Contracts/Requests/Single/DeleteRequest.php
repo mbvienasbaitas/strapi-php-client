@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Single;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Single;
 
-use VienasBaitas\Strapi\Client\Contracts\Requests\HasQuery;
-use VienasBaitas\Strapi\Client\Contracts\Requests\QueryAware;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\HasQuery;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\QueryAware;
 
 class DeleteRequest implements QueryAware
 {

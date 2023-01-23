@@ -6,10 +6,10 @@ namespace Tests;
 
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Client\ClientInterface;
-use VienasBaitas\Strapi\Client\Client;
-use VienasBaitas\Strapi\Client\Endpoints\Collection;
-use VienasBaitas\Strapi\Client\Endpoints\Media;
-use VienasBaitas\Strapi\Client\Endpoints\Single;
+use MBVienasBaitas\Strapi\Client\Client;
+use MBVienasBaitas\Strapi\Client\Endpoints\Collection;
+use MBVienasBaitas\Strapi\Client\Endpoints\Media;
+use MBVienasBaitas\Strapi\Client\Endpoints\Single;
 
 class ClientTest extends TestCase
 {

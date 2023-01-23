@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Contracts\Requests\Options;
+namespace MBVienasBaitas\Strapi\Client\Contracts\Requests\Options;
 
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media;
 
 class OptionId implements Collection\ShowRequestOption, Collection\UpdateRequestOption, Collection\DeleteRequestOption,
                           Collection\LocalizeRequestOption, Media\ShowRequestOption, Media\DeleteRequestOption,

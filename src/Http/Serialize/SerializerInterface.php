@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Http\Serialize;
+namespace MBVienasBaitas\Strapi\Client\Http\Serialize;
 
 interface SerializerInterface
 {

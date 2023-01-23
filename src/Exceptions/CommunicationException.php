@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Exceptions;
+namespace MBVienasBaitas\Strapi\Client\Exceptions;
 
 use Exception;
 

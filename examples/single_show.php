@@ -1,7 +1,7 @@
 <?php
 
-use VienasBaitas\Strapi\Client\Client;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\ShowRequest;
 
 include __DIR__ . '/bootstrap.php';
 

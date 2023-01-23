@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace Tests\Contracts\Requests\Options;
 
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionFields;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionFields;
 
 class OptionFieldsTest extends TestCase
 {

@@ -11,12 +11,12 @@ use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\StreamFactoryInterface;
 use Psr\Http\Message\StreamInterface;
-use VienasBaitas\Strapi\Client\Exceptions\ApiException;
-use VienasBaitas\Strapi\Client\Exceptions\CommunicationException;
-use VienasBaitas\Strapi\Client\Exceptions\InvalidResponseBodyException;
-use VienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
-use VienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
-use VienasBaitas\Strapi\Client\Http\Client;
+use MBVienasBaitas\Strapi\Client\Exceptions\ApiException;
+use MBVienasBaitas\Strapi\Client\Exceptions\CommunicationException;
+use MBVienasBaitas\Strapi\Client\Exceptions\InvalidResponseBodyException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
+use MBVienasBaitas\Strapi\Client\Http\Client;
 
 class ClientTest extends TestCase
 {

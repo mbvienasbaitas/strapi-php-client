@@ -5,17 +5,17 @@ declare(strict_types=1);
 namespace Tests\Endpoints;
 
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionLocale;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionPopulateWildcard;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\DeleteRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\LocalizeRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\ShowRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\UpdateRequest;
-use VienasBaitas\Strapi\Client\Endpoints\Collection;
-use VienasBaitas\Strapi\Client\Endpoints\Single;
-use VienasBaitas\Strapi\Client\Http\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionId;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionJsonBody;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionLocale;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionPopulateWildcard;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\DeleteRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\LocalizeRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\UpdateRequest;
+use MBVienasBaitas\Strapi\Client\Endpoints\Collection;
+use MBVienasBaitas\Strapi\Client\Endpoints\Single;
+use MBVienasBaitas\Strapi\Client\Http\Client;
 
 class SingleTest extends TestCase
 {

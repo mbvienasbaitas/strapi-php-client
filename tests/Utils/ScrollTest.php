@@ -5,10 +5,10 @@ declare(strict_types=1);
 namespace Tests\Utils\Scroll;
 
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
-use VienasBaitas\Strapi\Client\Endpoints\Collection;
-use VienasBaitas\Strapi\Client\Http\Client as HttpClient;
-use VienasBaitas\Strapi\Client\Utils\Scroll;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Endpoints\Collection;
+use MBVienasBaitas\Strapi\Client\Http\Client as HttpClient;
+use MBVienasBaitas\Strapi\Client\Utils\Scroll;
 
 class ScrollTest extends TestCase
 {

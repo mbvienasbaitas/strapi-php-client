@@ -19,10 +19,10 @@ composer require mbvienasbaitas/strapi-php-client guzzlehttp/guzzle http-interop
 ## Usage
 
 ```php
-use VienasBaitas\Strapi\Client\Client;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionLocale;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionSortAsc;
+use MBVienasBaitas\Strapi\Client\Client;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Collection\IndexRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionLocale;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionSortAsc;
 
 $client = new Client('{url}', '{token}');
 

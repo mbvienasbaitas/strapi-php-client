@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Tests\Http\Serialize;
 
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
-use VienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
-use VienasBaitas\Strapi\Client\Http\Serialize\Json;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonDecodingException;
+use MBVienasBaitas\Strapi\Client\Exceptions\JsonEncodingException;
+use MBVienasBaitas\Strapi\Client\Http\Serialize\Json;
 
 class JsonTest extends TestCase
 {

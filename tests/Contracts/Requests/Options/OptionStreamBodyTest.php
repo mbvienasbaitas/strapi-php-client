@@ -6,8 +6,8 @@ namespace Tests\Contracts\Requests\Options;
 
 use GuzzleHttp\Psr7\Stream;
 use PHPUnit\Framework\TestCase;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Media;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionStreamBody;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Media;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Options\OptionStreamBody;
 
 class OptionStreamBodyTest extends TestCase
 {

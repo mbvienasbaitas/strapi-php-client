@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace VienasBaitas\Strapi\Client\Endpoints;
+namespace MBVienasBaitas\Strapi\Client\Endpoints;
 
-use VienasBaitas\Strapi\Client\Contracts\Endpoint;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\DeleteRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\LocalizeRequest;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\ShowRequest;
-use VienasBaitas\Strapi\Client\Contracts\Http;
-use VienasBaitas\Strapi\Client\Contracts\Requests\Single\UpdateRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Endpoint;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\DeleteRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\LocalizeRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\ShowRequest;
+use MBVienasBaitas\Strapi\Client\Contracts\Http;
+use MBVienasBaitas\Strapi\Client\Contracts\Requests\Single\UpdateRequest;
 
 class Single extends Endpoint
 {
